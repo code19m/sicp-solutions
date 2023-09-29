@@ -47,11 +47,11 @@ def squares_sum(a, b):
 func SquaresSumLargest(a, b, c int64) int64 {
 	if a < b && a < c {
 		return squaresSum(b, c)
-	} else if b < a && b < c {
+	} 
+  if b < a && b < c {
 		return squaresSum(a, c)
-	} else {
-		return squaresSum(a, b)
-	}
+	}  
+	return squaresSum(a, b)
 }
 
 func squaresSum(a, b int64) int64 {
