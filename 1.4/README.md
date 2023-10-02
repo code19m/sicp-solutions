@@ -3,7 +3,7 @@
 (define (a-plus-abs-b a b) 
   ((if (> b 0) + -) a b))
 ```
-
+___
 ## Solution
 If b is strictly a positive number, the operator expression (if (> b 0) + -) will evaluate to + the result will be a + b.
 

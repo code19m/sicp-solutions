@@ -16,7 +16,7 @@
 
 ### What behavior will Ben observe with an interpreter that uses applicative-order evaluation? What behavior will he observe with an interpreter that uses normal-order evaluation? Explain your answer.
 
-
+___
 ## Solution
 The key is to notice that (define (p) (p)) defines a function that evaluates to itself.
 
